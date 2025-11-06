@@ -37,6 +37,8 @@ app.use("/api/v1/experience", experienceRoutes);
 app.use("/api/v1/promo", promoRoutes);
 app.use("/api/v1/booking", bookingRoutes);
 
-app.listen(PORT, () => {
-  console.log(`Server running on address, 'http://localhost:${PORT}'`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server running on address, 'http://localhost:${PORT}'`);
+// });
+
+export default app;
